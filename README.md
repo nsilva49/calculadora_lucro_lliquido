@@ -14,8 +14,10 @@ Aplicação desktop em Python (Tkinter) que calcula o resultado de uma operaçã
 - Margem = lucro líquido / receita x 100
 
 ## Como rodar
+```
 python -m pip install -r requirements.txt
 python app.py
+```
 
 ## Tecnologias
 Python, Tkinter, Matplotlib, Pillow.
