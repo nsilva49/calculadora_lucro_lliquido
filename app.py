@@ -177,11 +177,11 @@ def criar_campo(pai, texto, x, y, largura):
 
 
 e_produto = criar_campo(detalhe_produto, "Nome do Produto", 10, 30, 20)
-e_compra = criar_campo(detalhe_produto, "Preço de compra (unid.)", 10, 80, 10)
+e_compra = criar_campo(detalhe_produto, "Preço compra (un.)", 10, 80, 10)
 e_frete = criar_campo(detalhe_produto, "Frete (total)", 10, 130, 10)
 
 e_quantidade = criar_campo(detalhe_produto, "Quantidade", 170, 30, 7)
-e_venda = criar_campo(detalhe_produto, "Preço de venda (unid.)", 170, 80, 10)
+e_venda = criar_campo(detalhe_produto, "Preço venda (un.)", 170, 80, 10)
 e_custos = criar_campo(detalhe_produto, "Custos adic. (total)", 170, 130, 10)
 
 tk.Label(detalhe_produto,
@@ -258,15 +258,15 @@ def atualizar_grafico():
 # Tabela (Treeview)
 # ----------------------------------------------------------------------
 colunas = (
-    ("Nome do Produto", 130),
+    ("Nome do Produto", 140),
     ("Qtd", 50),
-    ("Preço de compra(R$)", 115),
-    ("Preço de venda(R$)", 110),
-    ("Frete(R$)", 85),
-    ("Custos adicionais(R$)", 120),
-    ("Custo total(R$)", 100),
-    ("Lucro líquido(R$)", 105),
-    ("Margem(%)", 70),
+    ("Compra(R$)", 100),
+    ("Venda(R$)", 100),
+    ("Frete(R$)", 90),
+    ("Custos adic.(R$)", 125),
+    ("Custo total(R$)", 110),
+    ("Lucro(R$)", 105),
+    ("Margem(%)", 80),
 )
 
 tabela = ttk.Treeview(tabela1, selectmode="browse",
