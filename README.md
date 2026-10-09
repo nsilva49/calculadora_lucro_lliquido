@@ -2,6 +2,8 @@
 
 Aplicação desktop em Python (Tkinter) que calcula o resultado de uma operação de compra e venda de produtos.
 
+![Tela do programa](tela.png)
+
 ## O que faz
 - Calcula receita, custo total, lucro líquido e margem de lucro.
 - Salva os produtos em uma tabela.
